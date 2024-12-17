@@ -1,36 +1,33 @@
-# **Cryptocurrency Trading System Using Deribit API**
+# **Real-Time Buy or Sell System**
 
 ## **Overview**  
-This project demonstrates a cryptocurrency trading system built using the Deribit API. The system is designed to automate trading tasks such as placing and modifying orders, retrieving market data, and managing positions. It emphasizes modularity, efficiency, and security, making it easy to maintain and expand.
+This project implements a real-time cryptocurrency trading system using the Deribit API. The system automates trading tasks such as placing orders, modifying them, retrieving market data, and managing positions. It is designed to be modular, efficient, and secure, making it suitable for both learning and practical use.
 
 ---
 
 ## **Features**  
-1. **Access Token Retrieval**  
-   - Authenticates with the Deribit API to obtain an access token.  
-   - Ensures secure communication for further API interactions.
+1. **Authentication**  
+   - Securely retrieves an access token to interact with the Deribit API.
 
 2. **Order Management**  
-   - Place buy and sell orders for supported instruments.  
-   - Modify existing orders by changing price or quantity.  
-   - Cancel orders by providing the order ID.
+   - Place buy or sell orders with desired parameters.  
+   - Modify or cancel existing orders using their unique IDs.
 
 3. **Market Data Retrieval**  
-   - Fetch real-time market data, including bid and ask prices, using the order book.  
-   - Useful for making informed trading decisions.
+   - Fetch real-time order book data for any cryptocurrency instrument.  
+   - Analyze bid-ask spreads for informed decision-making.
 
-4. **Position Management**  
-   - View current open positions, including size, entry price, and unrealized profit or loss.
+4. **Portfolio Management**  
+   - View open positions, including entry price, size, and unrealized profits or losses.
 
 5. **Error Handling**  
-   - Logs errors for invalid responses or failed API calls, ensuring smooth execution.
+   - Robust error-handling mechanisms to manage failed API calls or invalid responses.
 
 ---
 
 ## **Installation**  
-Follow these steps to set up the project on your local system:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/YashRaj1240/realtime-buyOrsell.git
+   cd realtime-buyOrsell
